@@ -1,0 +1,88 @@
+body {
+    font-family: "Potta One", cursive;
+    text-align: center;
+}
+
+h1 {
+    color: 2B2A4C;
+}
+
+hr {
+    width: 500px;
+}
+
+p {
+    font-size: 12px;
+}
+
+img {
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#errors {
+    color: B31312;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 96px;
+    height: 96px;
+    border: 2px solid lightgray;
+
+    /* Text */
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 400px;
+    height: 100px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 92px;
+    height: 92px;
+    border: 2px solid black;
+    margin: 2px;
+    /* Text */
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: EA906C;
+}
+
+.tile-start {
+    background-color: EEE2DE;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
